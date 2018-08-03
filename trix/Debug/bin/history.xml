@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=trix.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\trix -TC:\CooCox\CoIDE\configuration\ProgramData\trix/arm-gcc-link.ld -g">
+      <target file="trix.elf" lastModified="165020d8d7b">
+         <source file="..\obj\semihosting.o" lastModified="165020d7961"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="165020d7b43"/>
+         <source file="..\obj\OneWireEEPROM.o" lastModified="165020d7d2c"/>
+         <source file="..\obj\OneWireCRC.o" lastModified="165020d7f3e"/>
+         <source file="..\obj\main.o" lastModified="165020d8129"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="165020d815e"/>
+         <source file="..\obj\printf.o" lastModified="165020d83e7"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="165020d85e5"/>
+         <source file="..\obj\sh_cmd.o" lastModified="165020d8638"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="165020d8861"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="165020d8a4e"/>
+      </target>
+   </processor>
+</history>

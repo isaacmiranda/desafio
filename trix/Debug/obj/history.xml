@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F042K6 -I..\..\..\workspace\trix\MbedDriver -I..\..\..\workspace\trix\cmsis_core -I..\..\..\workspace\trix\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\trix\semihosting -I..\..\..\workspace\trix -I..\..\..\workspace\trix\cmsis_boot -I..\..\..\workspace\trix\cmsis_lib\include">
+      <target file="OneWireEEPROM.o" lastModified="165020d7d2c">
+         <source file="..\..\..\MbedDriver\OneWireEEPROM.c" lastModified="16501ea9120"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="165020d85e5">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="164fff6d5a0"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="165020d7b43">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="164fff6cdd0"/>
+      </target>
+      <target file="printf.o" lastModified="165020d83e7">
+         <source file="..\..\..\stdio\printf.c" lastModified="165000193a0"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="165020d8861">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_usart.c" lastModified="16501fa2e34"/>
+      </target>
+      <target file="OneWireCRC.o" lastModified="165020d7f3e">
+         <source file="..\..\..\MbedDriver\OneWireCRC.c" lastModified="165001375c0"/>
+      </target>
+      <target file="main.o" lastModified="165020d8129">
+         <source file="..\..\..\main.c" lastModified="165020d735c"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="165020d8638">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="164fffd8490"/>
+      </target>
+      <target file="semihosting.o" lastModified="165020d7961">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="164fffd8490"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="165020d8a4e">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="164fff6ae90"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="165020d815e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="164fff6ae90"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F042K6 -I..\..\..\workspace\trix\MbedDriver -I..\..\..\workspace\trix\cmsis_core -I..\..\..\workspace\trix\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\trix\semihosting -I..\..\..\workspace\trix\trix -I..\..\..\workspace\trix -I..\..\..\workspace\trix\cmsis_boot -I..\..\..\workspace\trix\cmsis_lib\include">
+      <target file="stm32f0xx_tim.o" lastModified="16501be4ced">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_tim.c" lastModified="16501adf5b8"/>
+      </target>
+      <target file="delay.o" lastModified="16501be3e5d">
+         <source file="..\..\delay.c" lastModified="16501bd6bee"/>
+      </target>
+   </processor>
+</history>

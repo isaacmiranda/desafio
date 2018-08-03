@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History> 
+  <File usedCount="2" path="mbeddriver/onewirecrc.c"/>  
+  <File usedCount="2" path="mbeddriver/onewirecrc.h"/>  
+  <File usedCount="2" path="mbeddriver/onewireeeprom.c"/>  
+  <File usedCount="2" path="mbeddriver/onewireeeprom.h"/>
+</History>
